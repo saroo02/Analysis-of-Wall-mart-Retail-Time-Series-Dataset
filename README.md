@@ -1,87 +1,85 @@
-# 🚕 Rapido Ride Service Dashboard – Bangalore (Excel)
+# 🛒 Walmart Retail Time-Series Dashboard (Excel)
 
 ## 📌 Project Overview
-This project is an **interactive Excel dashboard** built to analyze **Rapido ride service data for Bangalore city**.  
-The dashboard provides insights into **total fare, average distance, service performance, ride status, payment methods, destinations, and monthly trends**.
+This project presents an **interactive Excel dashboard** created to analyze **Walmart retail time-series data**.  
+The dashboard focuses on understanding how **fuel price, temperature, CPI, unemployment, markdowns, and holidays** impact retail performance across different Walmart stores.
 
-The objective is to convert raw ride data into **meaningful business insights** using **Microsoft Excel**.
-
----
-
-## 🎯 Objectives
-- Analyze total revenue generated from rides
-- Identify top destinations and long-distance rides
-- Understand service-wise performance (Auto, Bike, Cab, Parcel, etc.)
-- Track ride completion vs cancellation
-- Analyze monthly ride trends
-- Evaluate payment method distribution
-
+It transforms raw time-series data into **actionable insights** using **Microsoft Excel**.
 
 ---
 
-## 📊 Key Metrics (KPIs)
-| Metric | Description |
-|------|------------|
-| **Total Fare** | Total revenue generated from all rides |
-| **Average Distance** | Average distance per ride |
-| **Ride Count** | Total number of rides |
-| **Payment Count** | Number of transactions by payment method |
+## 🎯 Project Objectives
+- Analyze average fuel price, temperature, CPI, and unemployment
+- Identify weekly sales trends across years
+- Evaluate the impact of **markdowns** on sales
+- Compare performance across different stores
+- Analyze holiday vs non-holiday effects
+- Track top values for temperature, fuel price, CPI, and markdowns
 
-----
+---
+
+## 📊 Key Performance Indicators (KPIs)
+| KPI | Description |
+|----|------------|
+| **Avg Fuel Price** | Average fuel price across selected stores |
+| **Avg Temperature** | Average temperature recorded |
+| **Avg CPI Price** | Average Consumer Price Index |
+| **Avg Unemployment** | Average unemployment rate |
+
+---
+
+## 📈 Dashboard Components
 
 ### 🔹 KPI Cards
-- Total Fare
-- Average Distance
-- Ride Count
-- Payment Method Count
+- Average Fuel Price
+- Average Temperature
+- Average CPI
+- Average Unemployment
 
-### 🔹 Charts & Analysis
-- **Top 10 Destinations** – Line Chart  
-- **Top 10 Distance** – Column Chart  
-- **Service-wise Total Fare** – Horizontal Bar Chart  
-- **Monthly Ride Count** – Line Chart  
-- **Ride Status (Completed vs Cancelled)** – Bar Chart  
-- **Top 5 Missing Rides** – Pie Chart  
-- **Source of Payment** – Donut Chart  
+### 🔹 Charts & Visuals
+- **Weekly Trend Analysis** – Bar Chart  
+- **Top 10 CPI** – Horizontal Bar Chart  
+- **Top 10 Markdown** – Pie Chart  
+- **Top 5 Markdown** – Line Chart  
+- **Top 5 Temperature** – Column Chart  
+- **Top 5 Fuel Price** – Donut Chart  
 
 ---
 
 ## 🎛 Filters & Interactivity
-- **Service Type Filter**
-  - Auto
-  - Bike
-  - Bike Lite
-  - Cab Economy
-  - Parcel
-- **Ride Status Filter**
-  - Completed
-  - Cancelled
+The dashboard allows dynamic analysis using slicers:
 
-These slicers allow users to **dynamically interact** with the dashboard and view insights based on selected criteria.
+- **Store Filter**
+  - Store 1 to Store 45
+- **Holiday Filter**
+  - Yes
+  - No
+
+These slicers enable **store-level and event-based analysis**.
 
 ---
 
 ## 🗂 Dataset Description
-The dataset contains ride-level information such as:
-- Service Type
-- Ride Date & Time
-- Source & Destination
-- Distance
-- Fare Amount
-- Ride Status
-- Payment Method
+The dataset includes the following attributes:
+- Store Number
+- Date (Weekly)
+- Temperature
+- Fuel Price
+- CPI
+- Unemployment
+- MarkDown1–MarkDown5
+- IsHoliday
 
-> Note: Dataset is pre-cleaned before creating Pivot Tables.
+> The dataset is time-series based and pre-processed for analysis.
 
 ---
 
-## 📌 Business Insights
-- Completed rides generate significantly higher revenue compared to cancelled rides
-- Certain destinations consistently appear in top revenue-generating routes
-- Auto and Bike services dominate ride volume
-- Digital payment methods are widely used
-- Monthly ride demand shows noticeable fluctuations
+## 📌 Key Insights
+- Markdowns have a noticeable impact on weekly sales patterns
+- CPI and fuel price fluctuations influence retail performance
+- Holiday weeks show different trends compared to non-holiday weeks
+- Temperature variations correlate with changes in customer demand
+- Certain stores consistently outperform others
 
-## ⭐ If you like this project
-Please ⭐ star the repository and share your feedback!
-# Analysis-of-Wall-mart-Retail-Time-Series-Dataset
+---
+If you find this project useful, please ⭐ star the repository and share your feedback!

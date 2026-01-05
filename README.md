@@ -81,5 +81,4 @@ The dataset includes the following attributes:
 - Temperature variations correlate with changes in customer demand
 - Certain stores consistently outperform others
 
----
-If you find this project useful, please ⭐ star the repository and share your feedback!
+
